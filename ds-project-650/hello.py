@@ -1,4 +1,4 @@
-
+from termcolor import colored
 
 def hello():
-  print('hello world')
+  print(colored('hello world', 'blue'))
